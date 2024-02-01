@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import QuizForm from '../components/quiz'
+// import QuizForm from '../components/quiz'
 import QuizParams from '../backend/components/QuizParams'
 import QuizContext from '../backend/context.js/QuizContext'
 
 export default function Quiz() {
-    // Define state variables for topic, expertise, numQuestions, and questionStyle
+       // Define state variables for topic, expertise, numQuestions, and questionStyle
 
     const [topic, setTopic] = useState('');
     const [expertise, setExpertise] = useState('');
@@ -30,7 +30,6 @@ export default function Quiz() {
     return (
         <div>
             <QuizContext.Provider value={quizContextValue}>
-                {/* <QuizForm /> */}
                 <QuizParams />
             </QuizContext.Provider>
 
