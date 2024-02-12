@@ -15,6 +15,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-style: solid;
+    border-width: 10px;
+    border-image: linear-gradient(45deg, #26815a, #b2f0d5) 1;
 }
 
 .account h1 {
@@ -27,17 +30,19 @@ body {
     display: flex;
     flex-direction: row;
     margin: 2em 0;
+    justify-content: space-between;
 }
 
 .box {
     flex: 1;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin: 0 1em 1em 1em;
     padding: 15px;
-    border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #F3FFE9;
+    background-color: #f1fff9;
     text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-image: linear-gradient(45deg, #b2f0d5, #26815a) 1;
 }
 
 .streak,
@@ -99,7 +104,7 @@ body {
     font-size: 1.5em;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
     .box-container {
         display: flex;
         flex-direction: column;

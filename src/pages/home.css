@@ -79,7 +79,7 @@ body {
 
 .front .gradient-text {
     font-size: 2.2em;
-    background-image: linear-gradient(60deg, #d3f7e7, #a6f8d4);
+    background-image: linear-gradient(60deg, #f8fffc, #ccffe9);
     background-clip: text;
     color: transparent;
 }
